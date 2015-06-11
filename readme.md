@@ -12,6 +12,39 @@ All projects should use Test Driven Development. Each project is split into thre
 * Advanced
 
 
+### Domain Specific Language (DSL)
+
+A simple scripting DSL to define user data. It should parse the following input:
+
+```ruby
+department 'Development' do
+
+  employee do
+    first_name 'Josh'
+    last_name 'Nesbitt'
+    role 'Software Engineer'
+  end
+
+  employee do
+    first_name 'Leon'
+    last_name 'Davis'
+    role 'Software Engineer'
+  end
+
+end
+
+department 'Management' do
+
+  employee do
+    first_name 'Tracy'
+    last_name 'Myers'
+    role 'Scrum Master'
+  end
+
+end
+```
+
+
 ### Twitter Gem
 
 TODO.
