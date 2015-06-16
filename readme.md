@@ -13,7 +13,7 @@ All projects should use Test Driven Development. Some projects are split into th
 
 If no level is specified, the project will be around Intermediate difficulty.
 
-* [Domain Specific Language (DSL)](projects/domain-specific-language/readme.rb)
+* [Domain Specific Language (DSL)](projects/domain-specific-language/readme.md)
 * [Rake Report](projects/rake-report/readme.md)
 * [Fetching JSON via HTTP API](projects/json-via-http/readme.md)
 * [Sinatra Testing with Rack::Test](projects/sinatra-rack-test/readme.md)
