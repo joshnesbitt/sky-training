@@ -1,65 +1,29 @@
 # Sky Training Materials
 
-Introduction coming soon.
+This project contains training materials and projects for new Sky recruitment candidates. It has been open sourced with the hope that these may be useful to others.
 
 
 ## Projects
 
-All projects should use Test Driven Development. Each project is split into three levels:
+All projects should use Test Driven Development. Some projects are split into three levels:
 
 * Beginner
 * Intermediate
 * Advanced
 
+If no level is specified, the project will be around Intermediate difficulty.
 
-### Domain Specific Language (DSL)
+* [Domain Specific Language (DSL)](projects/domain-specific-language/readme.rb)
+* [Rake Report](projects/rake-report/readme.md)
+* [Fetching JSON via HTTP API](projects/json-via-http/readme.md)
+* [Sinatra Testing with Rack::Test](projects/sinatra-rack-test/readme.md)
+* [Twitter Gem](projects/twitter-gem/readme.md)
+* [Twitter Consumer](projects/twitter-consumer/readme.md)
+  * [Beginner](projects/twitter-consumer/1-beginner/readme.md)
+  * [Intermediate](projects/twitter-consumer/2-intermediate/readme.md)
+  * [Advanced](projects/twitter-consumer/3-advanced/readme.md)
 
-A simple scripting DSL to define user data. It should parse the following input:
-
-```ruby
-department 'Development' do
-
-  employee do
-    first_name 'Josh'
-    last_name 'Nesbitt'
-    role 'Software Engineer'
-  end
-
-  employee do
-    first_name 'Leon'
-    last_name 'Davis'
-    role 'Software Engineer'
-  end
-
-end
-
-department 'Management' do
-
-  employee do
-    first_name 'Tracy'
-    last_name 'Myers'
-    role 'Scrum Master'
-  end
-
-end
-```
-
-
-### Twitter Gem
-
-TODO.
-
-
-### Twitter Interface
-
-Using the gem built in the last project, you should write a simple web interface to searching Twitter. It should:
-
-* Display a search box allowing users to enter search terms
-* Make a request to Twitter with that query
-* Display the resulting tweets on the page
-* Allow those tweets to be favourited / unfavourited by the current user
-
-TODO
+More projects to come...
 
 
 ## Workshops
