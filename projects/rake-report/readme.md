@@ -5,13 +5,13 @@ Create a rake task which lists a directories contents and filters the output to 
 The script should be called like this:
 
 ```
-rake list [path] [pattern]
+rake list[path,pattern]
 ```
 
 E.g:
 
 ```
-rake list /path/to/directory *.png
+rake list[/path/to/directory,*.png]
 ```
 
 The script should be defined in a `Rakefile` and the second parameter should be optional. If omitted, the script should list all files in the directory.
