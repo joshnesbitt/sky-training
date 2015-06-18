@@ -24,3 +24,5 @@ The response for an unsuccessful request should be similar to:
   token: null
 }
 ```
+
+It should also return a 401 Unauthorized status code.
