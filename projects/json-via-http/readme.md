@@ -10,6 +10,17 @@ You should be able to use the wrapper like so:
 
 ```ruby
 api.ip # => 8.8.8.8
-api.date # => 03:53:25 AM
-api.md5('testing') # => ae2b1fca515949e5d54fb22b8ed95575
+api.date # => 03-02-2013
+api.md5(text: 'testing') # => ae2b1fca515949e5d54fb22b8ed95575
+```
+
+The final program should output:
+
+```
+IP:
+90.216.134.198
+Date:
+06-18-2015
+MD5:
+ae2b1fca515949e5d54fb22b8ed95575
 ```
