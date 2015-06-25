@@ -43,7 +43,8 @@ ae2b1fca515949e5d54fb22b8ed95575
 
 ## Walk-through
 
-TODO
+_Coding walk-through to be done in person with group._
+
 
 ## Solutions
 
