@@ -15,7 +15,6 @@ If no level is specified, the project will be around Intermediate difficulty.
 
 * [Domain Specific Language (DSL)](projects/domain-specific-language/readme.md)
 * [Rake Report](projects/rake-report/readme.md)
-* [Fetching JSON via HTTP API](projects/json-via-http/readme.md)
 * [Sinatra Testing with Rack::Test](projects/sinatra-rack-test/readme.md)
 * [Twitter Gem](projects/twitter-gem/readme.md)
 * [Twitter Consumer](projects/twitter-consumer/readme.md)
@@ -23,9 +22,7 @@ If no level is specified, the project will be around Intermediate difficulty.
   * [Intermediate](projects/twitter-consumer/2-intermediate/readme.md)
   * [Advanced](projects/twitter-consumer/3-advanced/readme.md)
 
-More projects to come...
-
 
 ## Workshops
 
-There are currently no workshops planned.
+* [Building a JSON API wrapper with `Net::HTTP`](workshops/json-via-http/readme.md)
