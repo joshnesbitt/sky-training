@@ -48,5 +48,5 @@ TODO
 ## Solutions
 
 * [Writing a simple API wrapper](1-basic.rb)
-* (Refactoring the wrapper)(2-refactored.rb)
-* (Using meta programming to further refactor and simplify)(3-metaprogramming.rb)
+* [Refactoring the wrapper](2-refactored.rb)
+* [Using meta programming to further refactor and simplify](3-metaprogramming.rb)
