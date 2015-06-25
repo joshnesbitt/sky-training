@@ -19,4 +19,4 @@ All projects should use Test Driven Development.
 
 ## Workshops
 
-* [Building a JSON API wrapper with `Net::HTTP`](workshops/json-via-http/readme.md)
+* [Building a JSON API wrapper with `Net::HTTP`](workshops/json-api-wrapper/readme.md)
