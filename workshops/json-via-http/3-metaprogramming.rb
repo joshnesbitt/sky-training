@@ -4,11 +4,7 @@ require 'json'
 class Client
   attr_reader :host
 
-  SUPPORTED_METHODS = %w(
-    ip
-    date
-    md5
-  )
+  SUPPORTED_METHODS = %w( ip date md5 )
 
   def initialize(host)
     @host = host
