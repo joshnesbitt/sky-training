@@ -10,6 +10,10 @@ class Client
     @host = host
   end
 
+  def respond_to?(*args)
+    SUPPORTED_METHODS.include?(args.first.to_s) || super
+  end
+
 private
 
   def method_missing(name, *args, &block)
