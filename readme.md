@@ -5,13 +5,7 @@ This project contains training materials and projects for new Sky recruitment ca
 
 ## Projects
 
-All projects should use Test Driven Development. Some projects are split into three levels:
-
-* Beginner
-* Intermediate
-* Advanced
-
-If no level is specified, the project will be around Intermediate difficulty.
+All projects should use Test Driven Development.
 
 * [Domain Specific Language (DSL)](projects/domain-specific-language/readme.md)
 * [Rake Report](projects/rake-report/readme.md)
