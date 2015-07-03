@@ -1,0 +1,8 @@
+task :list, :path, :pattern do |task, args|
+  path = args[:path]
+  pattern = args[:pattern] || '*'
+  matches = Dir["#{path}/#{pattern}"]
+  files = matches.map { |f| File.basename(f) }
+
+  puts files
+end
