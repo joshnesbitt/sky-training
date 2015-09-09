@@ -1,8 +1,11 @@
 # Sky Training Materials
 
+
+## Introduction
+
 This project contains training materials and projects for new Sky recruitment candidates. It has been open sourced with the hope that these may be useful to others.
 
-*Note: Most of these resources have been moved to the [ruby-bootcamp](https://github.com/Ladtech/ruby-bootcamp) repository along with other exercises.*
+*Note: This content has been merged into the [Ruby Bootcamp](https://github.com/sky-uk/ruby-bootcamp).*
 
 
 ## Projects
