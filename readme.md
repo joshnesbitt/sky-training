@@ -2,6 +2,8 @@
 
 This project contains training materials and projects for new Sky recruitment candidates. It has been open sourced with the hope that these may be useful to others.
 
+*Note: this content has been merged into the [Ruby Bootcamp](https://github.com/sky-uk/ruby-bootcamp).*
+
 
 ## Projects
 
